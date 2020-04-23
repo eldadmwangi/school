@@ -1,0 +1,122 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0cm;
+    /* same as */
+    font:normal 16px Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color: green;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.box-1{
+    background-color: #333333;
+    color: #ffffff;
+    border: 5px red solid;
+    border-bottom-width: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+.clr{
+    clear: both;
+}
+.box-1 h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: underline;
+}
+.box-2{
+   border: 3px dotted darkcyan; 
+   padding: 10px;
+   margin: 20px 0px;
+}
+.box-2 h2{
+    text-align: center;
+}
+
+.Categories{
+   border: 1px darkcyan solid; 
+   padding: 10px;
+   border-radius: 15px;
+}
+.Categories h3{
+    text-align: center;
+}
+.Categories ul{
+    padding: o;
+    list-style: none;
+}
+.Categories li{
+    padding: 6px;
+    border: 3px solid darkcyan;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form.form-group{
+    padding: 10px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"],.my-form textarea{
+    padding: 5px;
+    width: 100px;
+}
+.my-form input[type="button"]{
+    background-color: red;
+    color: green;
+    padding: 10px 15px;
+    border: none;
+}
+.block{
+    background-color: indigo;
+    float: left;
+    width: 33.3%;
+    border:1px solid #ccc;
+    padding:10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70% ;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box{
+     width: 500x;
+    height: 500px;
+    border: 1px solid #000000;
+    margin-top: 30px;
+    position: relative;
+}
+.p-box h1{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
